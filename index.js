@@ -23,6 +23,7 @@ mongoose
 const allowedOrigins = [
   "https://trips-travel.vercel.app",
   "http://localhost:5173",
+  "https://startourbmi.netlify.app",
 ];
 app.use(
   cors({
